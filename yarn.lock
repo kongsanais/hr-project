@@ -4193,6 +4193,11 @@ he@1.2.x, he@^1.1.0:
   resolved "https://registry.yarnpkg.com/he/-/he-1.2.0.tgz#84ae65fa7eafb165fddb61566ae14baf05664f0f"
   integrity sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==
 
+headful@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/headful/-/headful-1.0.3.tgz#420936f6184358a0613b5f73f1c5b5c91a251895"
+  integrity sha512-vF9Vfddn1QWmziliht2mji6ayI78+hUuSC+Kt0GEqLw/51zWgi1KF7oLtIQf3nlkg8sQQOlznkkIaF4W9lIt9w==
+
 hex-color-regex@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/hex-color-regex/-/hex-color-regex-1.1.0.tgz#4c06fccb4602fe2602b3c93df82d7e7dbf1a8a8e"
@@ -6593,9 +6598,9 @@ postcss-value-parser@^4.0.0, postcss-value-parser@^4.0.2, postcss-value-parser@^
   integrity sha512-97DXOFbQJhk71ne5/Mt6cOu6yxsSfM0QGQyl0L25Gca4yGWEGJaig7l7gbCX623VqTBNGLRLaVUCnNkcedlRSQ==
 
 postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.14, postcss@^7.0.16, postcss@^7.0.27, postcss@^7.0.30, postcss@^7.0.5, postcss@^7.0.6:
-  version "7.0.32"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.32.tgz#4310d6ee347053da3433db2be492883d62cec59d"
-  integrity sha512-03eXong5NLnNCD05xscnGKGDZ98CyzoqPSMjOe6SuoQY7Z2hIj0Ld1g/O/UQRuOle2aRtiIRDg9tDcTGAkLfKw==
+  version "7.0.36"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.36.tgz#056f8cffa939662a8f5905950c07d5285644dfcb"
+  integrity sha512-BebJSIUMwJHRH0HAQoxN4u1CN86glsrwsW0q7T+/m44eXOUAxSNdHRkNZPYz5vVUbg17hFgOQDE7fZk7li3pZw==
   dependencies:
     chalk "^2.4.2"
     source-map "^0.6.1"
@@ -8431,6 +8436,13 @@ vue-eslint-parser@^7.0.0:
     espree "^6.2.1"
     esquery "^1.0.1"
     lodash "^4.17.15"
+
+vue-headful@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/vue-headful/-/vue-headful-2.1.0.tgz#a1d55c3d2340a6f61799b4b32997e2af4215eac4"
+  integrity sha512-HXMdJfVDgD3eoh8qk9Laz2wGraPVGYDbvfXd7+i1MVziWMXGHUm8gpRC2p11ugYYXKRAcaS2g6ycq4Pr+eqb7g==
+  dependencies:
+    headful "^1.0.3"
 
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"
